@@ -1,0 +1,39 @@
+<!--
+Author: Shoikot Sen
+Project: Weather App
+Description:
+  A simple web application that allows users to enter a city name 
+  and view the current weather using an API call handled in script.js.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+
+  <!-- Link to external CSS for styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Main title of the app -->
+    <h1>Weather App</h1>
+
+    <!-- Input for user to type in city name -->
+    <input type="text" id="cityInput" placeholder="Enter city name">
+
+    <!-- Button to trigger weather fetch -->
+    <button onclick="getWeather()">Get Weather</button>
+
+    <!-- Div to display fetched weather info -->
+    <div id="weatherResult"></div>
+
+    <!-- Loading text while fetching data -->
+    <p id="loading" style="display:none;">Loading...</p>
+  </div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

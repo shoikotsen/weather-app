@@ -1,0 +1,49 @@
+/*
+Author: Shoikot Sen
+Project: Weather App - Styling
+Description:
+  This CSS file styles the Weather App's layout, input box, 
+  button, and weather result section for a clean and simple UI.
+*/
+
+body {
+  font-family: Arial, sans-serif;    /* Sets a clean and readable font */
+  text-align: center;                /* Center all text */
+  background: #eef;                  /* Light blue-ish background */
+}
+
+.container {
+  margin-top: 100px;                 /* Space from the top of the page */
+}
+
+input {
+  padding: 10px;                     /* Space inside input */
+  font-size: 16px;                   /* Bigger, readable text */
+}
+
+button {
+  padding: 10px;                     /* Space inside button */
+  font-size: 16px;                   /* Consistent text size */
+  margin-left: 10px;                /* Gap between input and button */
+  cursor: pointer;                  /* Pointer cursor on hover */
+}
+
+#weatherResult {
+  margin-top: 20px;                  /* Space above result area */
+  font-size: 18px;                   /* Font size for weather info */
+}
+
+#weatherResult img {
+  width: 100px;                      /* Fixed width for weather icons */
+  height: 100px;                     /* Fixed height */
+  margin-top: 10px;                  /* Space above icon */
+}
+
+#weatherResult h2 {
+  margin-bottom: 5px;                /* Space below city name */
+  font-size: 24px;                   /* Larger font for city name */
+}
+
+#weatherResult p {
+  margin: 4px 0;                     /* Even spacing for weather data lines */
+}
